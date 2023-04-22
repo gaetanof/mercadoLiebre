@@ -4,26 +4,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+rel="stylesheet" />
     <title>Document</title>
 </head>
 <body>
-    <header>
-     <img src = "/images/logo-mercado-liebre.svg" style="width: 100px; height: 50px">
-     <input type="search" placeholder="Buscar producto">
-     <p>Comprá en cuotas y sin tarjeta de crédito</p>
-     <nav>
-        <ul>
-          <li><a href="#">Ofertas</a></li>
-          <li><a href="#">Tiendas Oficiales</a></li>
-          <li><a href="#">Vender</a></li>
-          <li><a href="#">Ayuda</a></li>
-          <br>
-          <li><a href="#">Creá tu cuenta</a></li>
-          <li><a href="#">Ingresá</a></li>
-          <li><a href="#">Mis compras</a></li>
-        </ul>
-      </nav>
-    </header>
+  <header>
+    <div class="logo-container">
+      <img src="/images/logo-mercado-liebre.svg" style="width: 100px; height: 50px">
+    </div>
+    <div class="search-container">
+      <input class="search-field" type="search" placeholder="Buscar producto, marcas">
+    <br>
+    <button class="search-btn"><i class="fas fa-search"></i></button>
+    </div>
+    <div class="compra-container">
+    <p><i class="fas fa-hand-holding-usd"></i>Comprá en cuotas y sin tarjeta de crédito</p>
+    </div>
+    <nav class="nav-container">
+      <ul type="none">
+        <li><a href="#">Ofertas</a></li>
+        <li><a href="#">Tiendas Oficiales</a></li>
+        <li><a href="#">Vender</a></li>
+        <li><a href="#">Ayuda</a></li>
+        <br>
+        <li><a href="#">Creá tu cuenta<i class="far fa-id-card"></i></a></li>
+        <li><a href="#">Ingresá<i class="fas fa-sign-in-alt"></i></a></li>
+        <li><a href="#">Mis compras<i class="fas fa-shopping-basket"></i></a></li>
+      </ul>
+    </nav>
+    <div class="burger-menu">
+      <i class="fas fa-bars"></i>
+      </div>
+  </header>
     <main>
         <section>
           <h2>Basado en tu última visita</h2>
@@ -58,25 +72,25 @@
             <img src="/images/img-cafetera-moulinex.jpg" alt="Cafetera Moulinex" style="width: 100px; height: 50px">
             <p class="price">$6.770</p>
             <p class="discount">40% off</p>
-            <p class="name">Cafetera Moulinex</p>
+            <p class="description">Cafetera Moulinex</p>
           </div>
           <div class="product">
             <img src="/images/img-macbook-pro-2019.jpg" alt="MacBook Pro 2019" style="width: 100px; height: 50px">
             <p class="price">$230.000</p>
             <p class="discount">20% off</p>
-            <p class="name">MacBook Pro 2019</p>
+            <p class="description">MacBook Pro 2019</p>
           </div>
           <div class="product">
             <img src="/images/img-samsung-galaxy-s10.jpg" alt="Samsung Galaxy S10" style="width: 100px; height: 50px">
             <p class="price">$70.500</p>
             <p class="discount">10% off</p>
-            <p class="name">Samsung Galaxy S10</p>
+            <p class="description">Samsung Galaxy S10</p>
           </div>
           <div class="product">
             <img src="/images/img-tv-samsung-smart.jpg" alt="SmartTv Samsung 43''" style="width: 100px; height: 50px">
             <p class="price">$23.200</p>
             <p class="discount">5% off</p>
-            <p class="name">SmartTv Samsung 43''</p>
+            <p class="description">SmartTv Samsung 43''</p>
           </div>
         </section>
       </main>
