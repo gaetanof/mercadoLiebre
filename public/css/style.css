@@ -83,7 +83,7 @@ body {
         margin: 0 5px;
     }
 }
-
+ 
 @media  (min-width: 1200px){
 
     .logo {
@@ -119,6 +119,7 @@ body {
     }
     
 }
+
 
 
 /* header p {
